@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+</head>
+
+<body>
+    <h1>My Bakery</h1>
+    <h2>NYC Eatry</h2>
+    <article class="first">
+        <p>Tempting Cheesecake<span class="price">$7.99</span>
+            <br>
+            <small>Looking for the traditional cheesecake? This is our version of the perfect New York Style Cheesecake recipe featuring a traditional graham crust and rich creamy filling all baked to perfection.</small></p>
+    </article>
+    <article class="second">
+        <p>Delicious Napoleon<span class="price">$6.99</span>
+            <br>
+            <small>Delicate mini Napoleons generously filled with wonderful creamy custard and mini Éclairs dipped in rich chocolate ganache. Choice of any two.</small></p>
+    </article>
+    <article class="third">
+        <p>Heavenly Tiramisu<span class="price">$8.99</span>
+            <br>
+            <small>Tiramisu quite literally means, "pick me up." One of Italy's most popular, Tiramisu is a rich treat blending the bold flavors of cocoa and espresso with savory mascarpone cheese and wine, layered with lady finger biscuits.</small></p>
+    </article>
+    <script>
+    (function() {
+        $('article').on('click', function() {
+            $(this).toggleClass('show-description');
+        })
+    })();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+    /*background: url("http://cdn.designsmag.netdna-cdn.com/wp-content/uploads/2014/11/cupcakes_and_candles.jpg");*/
+    color: #232323;
+    font-family: helvetica;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 75px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #bbb;
+    text-align: center;
+    margin-top: 60px;
+}
+
+article {
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 40px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+article.first {
+    background: url("https://realfood.tesco.com/media/images/berry-cheesecake-HERO-02079f72-643d-48af-8731-073b469651a1-0-472x310.jpg");
+}
+
+article.second {
+    background: url("https://s3-media1.fl.yelpcdn.com/bphoto/5i7LAvXJ9CfF9IMydjkWLg/o.jpg");
+}
+
+article.third {
+    background: url("https://media-cdn.tripadvisor.com/media/photo-s/0c/4c/06/92/yummy-tiramisu.jpg")
+}
+
+small {
+    opacity: 0;
+}
+
+p {
+    height: 30px;
+    background: #111;
+    padding: 10px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    text-align: justify;
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    transition: -moz-all .9s;
+    transition: -ms-all .9s;
+    transition: -webkit-all .9s;
+    transition: -o-all .9s;
+    transition: all .9s;
+}
+
+.price {
+    float: right;
+}
+
+.show-description p {
+    height: 100px;
+}
+
+.show-description small {
+    opacity: 1;
+    transition: -moz-all .9s;
+    transition: -ms-all .9s;
+    transition: -webkit-all .9s;
+    transition: -o-all .9s;
+    transition: all .9s;
+}
